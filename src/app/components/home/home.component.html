@@ -1,0 +1,68 @@
+<div class="">
+    <div class="card-body helvetica ">
+        <div class="card-body p-0 border-top-blue" style="width: 420px;">
+            <div class="row m-0 " style="height: 40px; width: 420px">
+                <div class="col  ">
+                    <p class="titulo m-0 pt-2 pb-2">Sales by Retailers-BU-CDCs</p>
+                </div>
+                <div class="col-3 pt-2 ">
+                    <div class="row p-0 m-0">
+                        <a href="" class=" col  p-0 pl-3" style="width: 18px;"> <img style="width: 18px;" src="../assets/img/capture.PNG" alt=""> </a>
+                        <a href="" class="col  p-0 pl-2 border-left"> <img style="width: 18px;" src="../assets/img/Close-Button.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-1">
+
+            <div class="vendor-window ml-auto mr-auto mb-3" style="width: 410px;">
+
+                <div class="vendor  " style="width: 410px;">
+                    <div class="row  ">
+                        <div class="col-1 pt-1">
+                            <a class="slide pl-2" href="#"> <img src="../assets/img/arrow-down.svg" alt=""></a>
+                        </div>
+                        <div class="col ">
+                            <p class="pt-1 font-weight-bold"> Hy-Vee</p>
+
+                        </div>
+                        <div class="col-2">
+                            <p class="pt-1 text-success font-weight-bold">22 M</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ventana mt-3 ">
+
+
+                    <nav class="nav navegacion row m-0" style="width: 410px;height: 35;">
+                        <a class="nav-link col activo " href="#total">Total</a>
+                        <a class="nav-link col" href="#afc">AFC</a>
+                        <a class="nav-link col" href=#bcc>BCC</a>
+                        <a class="nav-link col" href="#fc">FC</a>
+                    </nav>
+
+                    <app-tarjeta [items]="total" id="total" class="ocultar"></app-tarjeta>
+                    <app-tarjeta [items]="afc" id="afc" class="ocultar"></app-tarjeta>
+                    <app-tarjeta [items]="bcc" id="bcc" class="ocultar"></app-tarjeta>
+                    <app-tarjeta [items]="fc" id="fc" class="ocultar"></app-tarjeta>
+
+                    <hr class="mb-0">
+                    <p class="ml-3 mb-0 font-weight-bold">CDCs</p>
+
+                    <app-tarjetacdc [items]="cdc"></app-tarjetacdc>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </div>

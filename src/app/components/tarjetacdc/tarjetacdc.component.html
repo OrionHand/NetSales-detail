@@ -1,0 +1,19 @@
+<div class="tarjeta  mb-3 mt-0 ml-2 mr-2  " *ngFor="let item of items">
+
+    <p class="ml-2 mt-0 text-primary font-weight-bold">{{item.nombre}}</p>
+
+    <div class="row m-0 text-center">
+        <div class="col">{{item.ydt }} M<br> <span>YDT</span></div>
+        <div class="col">{{item.ydtvsp}} <br> <span>vs Plan</span> </div>
+        <div class="col">{{item.ydtvsya}} <br><span>vs YA</span></div>
+        <div class="col"> </div>
+    </div>
+    <hr width="350px">
+    <div class="row m-0 text-center">
+        <div class="col">{{item.fy}} M<br><span>FY</span></div>
+        <div class="col">{{item.fyvsp}}<br><span>vs Plan</span> </div>
+        <div class="col">{{item.fyvsya}}<br><span>vs YA</span></div>
+        <div class="col">{{item.fyytg}}<br><span>YTG PS</span> </div>
+    </div>
+    <hr>
+</div>
